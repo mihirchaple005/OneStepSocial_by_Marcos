@@ -32,12 +32,32 @@ OneStepSocial is a web-based platform designed to facilitate crowdfunding for so
    - Secure, high-quality video consultations with session recording options.
    - Easy follow-up scheduler with reminders.
 
-5. **Settings Page**:
-   - Personalization options for themes, notification preferences, and privacy settings.
-   - Enhanced security features including two-factor authentication and activity logs.
-   - Data export options for consultation history and project contributions.
-   - Language and accessibility features.
-   - Subscription management for billing, plan upgrades, and cancellations.
+
+5. **Crowdfunding Page** :
+
+    The **Crowdfunding Page** on OneStepSocial serves as the central hub for all crowdfunding activities, providing a comprehensive and engaging experience for users. Here are the key features:
+
+-- **Crowdfunder Profiles and Stories**:
+     - Detailed profiles of individuals or organizations raising funds, including their background and objectives.
+     - Personal stories and testimonials that highlight the impact of the fundraising efforts.
+     - Multimedia elements such as photos, videos, and updates to keep donors informed and engaged.
+
+-- **Chatbot Assistance**:
+     - Integrated chatbot to provide real-time support and answer frequently asked questions.
+     - Assistance with navigating the site, understanding the fundraising process, and making donations.
+     - Personalized recommendations based on user interests and previous interactions.
+
+-- **Fundraising Analysis**:
+     - In-depth analysis and visualization of the money generated through various campaigns.
+     - Graphs and charts showing progress towards fundraising goals, donor statistics, and contribution trends.
+     - Insights into the most successful campaigns and strategies.
+
+-- **Document Repository**:
+     - Secure section for storing and accessing all relevant documents related to the NGO and its crowdfunding campaigns.
+     - Legal documents, registration certificates, financial reports, and other important files.
+     - Easy download and review options for transparency and compliance.
+
+    These features make the Crowdfunding Page a vital part of OneStepSocial, offering a transparent, interactive, and supportive environment for both fundraisers and donors.
 
 ## Tech Stack
 
@@ -74,6 +94,13 @@ OneStepSocial is a web-based platform designed to facilitate crowdfunding for so
 - **Live Chat Support**: Instant support for users.
 - **Symptom Checker**: AI-driven preliminary medical advice.
 - **Virtual Waiting Room**: Engaging and informative content while waiting for consultations.
+
+## Additional Features:
+   - Personalization options for themes, notification preferences, and privacy settings.
+   - Enhanced security features including two-factor authentication and activity logs.
+   - Data export options for consultation history and project contributions.
+   - Language and accessibility features.
+   - Subscription management for billing, plan upgrades, and cancellations.
 
 ## NGO Registration
 To operate as an NGO in India, OneStepSocial will obtain the necessary registrations and certifications:
