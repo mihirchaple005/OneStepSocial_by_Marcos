@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Indie-Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/OneStepSocial_by_Marcos/Frontend/onestepsocialfrontend/fonts/Indie_Flower/IndieFlower-Regular.ttf) format('woff2');
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
