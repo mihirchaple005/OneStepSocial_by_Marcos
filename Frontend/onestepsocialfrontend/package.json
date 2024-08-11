@@ -10,11 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "embla-carousel-autoplay": "^8.1.8",
     "embla-carousel-react": "^8.1.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "swiper": "^11.1.9"
+=======
+    "icons": "^1.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.2.1"
+>>>>>>> 294f1210dcdb9fdc2b4592deb7d5e5689b123d48
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

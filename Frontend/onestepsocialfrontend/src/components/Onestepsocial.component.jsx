@@ -1,9 +1,14 @@
-import React from 'react'
+import Layout from "./Layout/Layout"
 
-function onestepsocial() {
+
+function Onestepsocial() {
   return (
-    <div>onestepsocial</div>
+    <>
+    <Layout>
+      <h1>Hello World</h1>
+    </Layout>
+    </>
   )
 }
 
-export default onestepsocial
+export default Onestepsocial

@@ -1,0 +1,13 @@
+
+.text-gradient {
+    background: linear-gradient(to right, #ff0909, #666666);
+    background-clip: none; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  body{
+    background-color: #fae3e2;
+  }
+  .layout{
+    height: 70vh;
+  }
