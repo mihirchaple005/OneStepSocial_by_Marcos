@@ -11,20 +11,7 @@ function App() {
   
   return (
     <>
-
-      <Layout >
-
-        {/* <Onestepsocial /> */}
-      
-        <CrowdfundingPage />
-
-
-
-      </Layout>
-
-
-     
-
+    
     </>
   )
 }
