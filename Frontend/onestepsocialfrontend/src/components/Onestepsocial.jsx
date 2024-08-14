@@ -1,12 +1,10 @@
-import Layout from "./Layout/Layout"
+import Userregister from "./UserProfiles/Userregister"
 
 
 function Onestepsocial() {
   return (
     <>
-    <Layout>
-      <h1>Hello World</h1>
-    </Layout>
+      <Userregister/>
     </>
   )
 }
