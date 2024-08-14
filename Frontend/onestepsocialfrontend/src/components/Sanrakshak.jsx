@@ -26,7 +26,7 @@ const Sanrakshak = () => {
   }, [messages]);
 
   return (
-    <div className="flex flex-col h-screen bg-gray-100">
+    <div className="flex flex-col bg-gray-100 w-full h-full">
       <header className="bg-blue-600 text-white p-4 flex items-center justify-center text-xl">
         <FaRobot className="mr-2" />
         Sanrakshak

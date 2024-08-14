@@ -9,7 +9,7 @@ const Layout = ({children}) => {
     <>
     <Navbar/>
     <Toaster/>
-    <div className="layout">
+    <div className="container-fluid">
     {children}
     </div>
     <Footer/>
