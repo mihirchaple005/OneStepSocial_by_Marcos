@@ -1,13 +1,16 @@
 import './App.css'
-//import Layout from './components/Layout/Layout'
-import Onestepsocial from './components/Onestepsocial'
+import Onestepsocial from './components/Onestepsocial.component'
+
+
 
 function App() {
 
-
+  
   return (
     <>
-      <Onestepsocial/>
+
+      <Onestepsocial />
+
     </>
   )
 }
