@@ -6,11 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+
       fontFamily: {
         indie: ['Indie-Flower', 'sans-serif'], // Example with a custom font name
         julius: ['Julius Sans One'],
         lato: ['Lato', 'sans-serif'],
       },
+
+      backgroundImage:{
+        'custom-gradient': 'linear-gradient(to right, #ff0909, #666666)'
+      },
+      colors:{
+        'brand-red':'#ff0909'
+      }
+
     },
   },
   plugins: [
