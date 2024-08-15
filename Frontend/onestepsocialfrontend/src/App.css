@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Indie-Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/OneStepSocial_by_Marcos/Frontend/onestepsocialfrontend/fonts/Indie_Flower/IndieFlower-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Julias-Sans-One';
+  font-style: normal;
+  src: url(/OneStepSocial_by_Marcos/Frontend/onestepsocialfrontend/fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;

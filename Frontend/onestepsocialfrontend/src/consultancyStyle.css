@@ -1,0 +1,24 @@
+.wrapper{
+    max-height: 200px;
+    display: flex;
+    gap: 12px;
+    overflow-y: auto;
+    
+
+}
+.wrapper .item{
+    min-width: 190px;
+    min-height: 200px;
+    background-color: beige;
+}
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari and Opera */
+    }
