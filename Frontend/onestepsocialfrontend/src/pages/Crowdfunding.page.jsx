@@ -1,5 +1,6 @@
 import React from "react"
 import Sanrakshak from "../components/Sanrakshak"
+import Newsfeed from "../components/Newsfeed.component"
 
 
 
@@ -18,11 +19,13 @@ function Crowdfunding({
 
         <div className="md:w-[60%] border-2 border-red-300 h-full w-[100%]">
 
-          <div className="w-full border-2 border-red-500 h-[15%] flex overflow-hidden ">
+          <div className="w-full border-2 border-red-500 h-[15%] flex overflow-hidden overflow-x-auto">
 
             <div className="h-full aspect-square p-3">
 
-              <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] ">
+              <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] bg-blue-300">
+
+
 
               </div>
 
@@ -30,7 +33,7 @@ function Crowdfunding({
 
             <div className="h-full aspect-square p-3">
 
-              <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] ">
+              <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] bg-blue-300">
 
               </div>
 
@@ -42,23 +45,28 @@ function Crowdfunding({
                 
                 <div key={story.id} className="h-full aspect-square p-3">
                   
-                  <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] ">
+                  <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] overflow-hidden" >
 
-                    <img src={story.url} alt="unviewed story" />
+                    <img src={story.url} alt="unviewed story" className="h-full w-full"/>
 
                   </div>
 
                 </div>
               ))
             }
-
-            
+              
 
           </div>
 
-          <div className="w-full border-2 border-red-500 h-[85%] flex px-20">
+          <div className="w-full border-2 border-red-500 h-[85%] grid px-20 overflow-y-auto">
 
-            <div className="w-full border-2 border-red-500 h-full flex ">
+            <div className="w-full border-2 border-yellow-600 h-full grid gris-cols-1 place-content-center  gap-2 ">
+
+
+              {/* ekk chnage krna hai multiple feeds ayege tho useke liye for loop lagana hai bass */}
+
+              <Newsfeed image = 'https://th.bing.com/th/id/OIP.CBS8VWlB8mIzhU8WbUkcsAHaEw?w=1400&h=900&rs=1&pid=ImgDetMain'/>
+
 
 
             </div>

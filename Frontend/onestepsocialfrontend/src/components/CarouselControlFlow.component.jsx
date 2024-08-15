@@ -13,7 +13,8 @@ import '../index.css';
 import {Autoplay, EffectCoverflow, Pagination} from 'swiper/modules'
 
 export default function ControlFlow({
-  ImagesAndVideosPath = []
+  ImagesAndVideosPath = [],
+  delay = 3000,
 }) {
 
 
@@ -26,7 +27,7 @@ export default function ControlFlow({
         centeredSlides={true}
         spaceBetween={-100}
         autoplay = {{
-            delay:3000,
+            delay:{delay},
             disableOnInteraction: false,
         }}
         pagination={false}
@@ -38,7 +39,7 @@ export default function ControlFlow({
         {
           ImagesAndVideosPath.map((item, index) => (
             <SwiperSlide key={index}>
-            <CarouselPartComponent path={item.url}/>
+            <CarouselPartComponent path={item}/>
             </SwiperSlide>
           ))
         }

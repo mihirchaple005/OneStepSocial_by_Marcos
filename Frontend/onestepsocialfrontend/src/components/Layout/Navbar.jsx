@@ -21,16 +21,9 @@ const Navbar = () => {
   }, []);
 
 
-<<<<<<< HEAD
   return (
-    
-    <nav className="bg-blue-200 p-4 border-2  border-blue-300 ">
-=======
-  return(
-    <nav className="bg-blue-200 p-4 border-2 border-blue-300 rounded-md">
-    <div className="container mx-auto flex items-center justify-between ">
+
     <nav className="bg-blue-200 p-4 border-2  border-blue-300 rounded-md">
->>>>>>> fd01d4c528b50d375f1b696c4c8fe24ef0aabff0
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-4xl text-gradient font-serif hidden md:block">
           OnestepSocial
@@ -58,8 +51,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    </div>
-    </nav>
+
   );
 
 };

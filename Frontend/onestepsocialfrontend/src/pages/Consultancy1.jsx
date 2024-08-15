@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Cons1 from './images/Cons1.png';
+import Cons1 from '../images/Cons1.png';
 import Consultancy2 from './Consultancy2';
-import Note1 from './Note1';
+import Note1 from '../Note1';
 import BookAppointment from './BookAppointment';
 function Consultancy1() {
     return (
@@ -42,3 +42,6 @@ function App2() {
 }
 
 export default App2;
+
+{/* <Consultancy1></Consultancy1> */}
+      {/*<Newsfeed image={newsimg} description="Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, which range from a view of Mount Kilimanjaro from space to sulphur crystals on Mars.Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, " />*/}
