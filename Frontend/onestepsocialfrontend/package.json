@@ -12,12 +12,10 @@
   "dependencies": {
     "embla-carousel-autoplay": "^8.1.8",
     "embla-carousel-react": "^8.1.8",
-<<<<<<< HEAD
-=======
+
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
->>>>>>> c674adbf023f6da6c97c4d59dd74fcda9ae37241
     "swiper": "^11.1.9",
     "icons": "^1.0.0",
     "prop-types": "^15.8.1",
