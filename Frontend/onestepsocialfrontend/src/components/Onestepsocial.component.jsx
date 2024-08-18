@@ -1,10 +1,13 @@
-import Userregister from "./UserProfiles/Userregister"
 
 
 function Onestepsocial() {
   return (
     <>
-      <Userregister/>
+
+      <h1>OneStepSocial</h1>
+ 
+
+      {/* <Userregister/> */}
     </>
   )
 }
