@@ -46,9 +46,9 @@ function UserProfilePage() {
             <p className='p-1 absolute top-0 left-0 transform -translate-y-1/2 translate-x-1/4 bg-blue-100 w-fit border-blue-400 border-2 rounded-md'>
                 Health Details
             </p>
-            <div className='h-5/6'>
-                <div className='border-2 border-blue-400 h-3/6 min-h-[150px] mt-6 rounded-md mx-2'>Appointment History</div>
-                <div className='border-2 border-blue-400 h-3/6 min-h-[150px] mt-2 rounded-md mx-2 mb-4'>Health Reports</div>
+            <div className='h-5/6 px-[0.5rem]'>
+                <div className='border-2 border-blue-400 h-3/6 min-h-[150px] mt-6 rounded-md mx-2 px-[0.5rem] py-1'>Appointment History</div>
+                <div className='border-2 border-blue-400 h-3/6 min-h-[150px] mt-2 rounded-md mx-2 mb-4 px-[0.5rem] py-1'>Health Reports</div>
             </div>
             <a href="#" className='border-2 border-blue-400 ml-4 w-fit rounded-md 
             hover:bg-blue-700 hover:text-white p-2 block mt-4 absolute bottom-2'>Book Appointment</a>
