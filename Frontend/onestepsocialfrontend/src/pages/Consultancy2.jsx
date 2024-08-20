@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import {  Link } from "react-router-dom";
-
-import './consultancyStyle.css'
-import health1 from './images/healthc4.jpeg'
-import health2 from './images/healthc2.jpeg'
-import health3 from './images/healthc5.webp'
+import health1 from '../images/healthc4.jpeg'
+import health2 from '../images/healthc2.jpeg'
+import health3 from '../images/healthc5.webp'
 
 
 function Consultancy2(props){

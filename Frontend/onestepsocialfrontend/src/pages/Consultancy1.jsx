@@ -1,12 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Cons1 from './images/Cons1.png';
+import Cons1 from '../images/Cons1.png';
 import Consultancy2 from './Consultancy2';
 import Note1 from './Note1';
 import BookAppointment from './BookAppointment';
+import OutputBox from '../components/OutputBox';
+import SingleLineInputBox from '../components/SingleLineInputBox';
+import MultiLineInputBox from '../components/MultiLineInputBox';
 function Consultancy1() {
     return (
-        <div className='place-content-center md:bg-blend-color-dodge h-[35rem] md:bg-red-50'>
+        <div className='place-content-center  h-[35rem] md:bg-red-50'>
             <center>
                 <img src={Cons1} alt='Photo' className='w-[22.5rem] center lg:opacity-20 lg:w-[45.5rem] lg:h-auto lg:mt-[-10rem]' />
             </center>
@@ -17,6 +20,8 @@ function Consultancy1() {
                 Connect with care, helping<br />
                 manage your health
             </p>
+            {/* Form */}
+            
             <Link to="/Consultancy2">
                 <button type="button" className='border-2 rounded-md bg-gradient-to-b from-sky-50 to-sky-200 font-mono shadow-lg shadow-sky-400 lg:hidden font-bold mt-[2rem] p-2'>
                     Book Appointment
@@ -25,7 +30,6 @@ function Consultancy1() {
         </div>
     );
 }
-
 function App2() {
     return (
         <BrowserRouter>
