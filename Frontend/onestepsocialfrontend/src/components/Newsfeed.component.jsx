@@ -23,7 +23,8 @@ function Newsfeed(props) {
       overflow-y-scroll no-scrollbar text-[10px] w-[15rem] h-16 relative right-[1.3rem] lg:w-[30rem] 
       md:w-[27rem] lg:ml-0 md:text-[15px] lg:h-16 lg:text-[15px] md:h-16 ">
         {props.description}
-      </p></div>
+        </p>
+      </div>
       
       
       

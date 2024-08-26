@@ -7,25 +7,20 @@ import Onestepsocial from './components/Onestepsocial.component'
 import CrowdfundingPage from './pages/Crowdfunding.page'
 import Layout from "./components/Layout/Layout";
 import Documents from './pages/Documents';
-
-
-
+import BookAppointment from './pages/BookAppointment'
+import puppy from './images/puppy.jpeg';
+import Community from './pages/Community';
+import FundDisplay from './components/FundDisplay.component'
 
 function App() {
-
-  
   return (
     <>
-     
-      
-      <Newsfeed image={newsimg} description="Description: NASA images: Let's take a look at the five most spectacular images released by the National
-       Aeronautics and Space Administration, which range from a view of Mount Kilimanjaro from space to sulphur crystals on Mars.Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, " />
-      <Newsfeed image={newsimg} description="Description: NASA images: Let's take a look at the five most spectacular images released by the National
-       Aeronautics and Space Administration, which range from a view of Mount Kilimanjaro from space to sulphur crystals on Mars.Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, " />
-       <Newsfeed image={newsimg} description="Description: NASA images: Let's take a look at the five most spectacular images released by the National
-       Aeronautics and Space Administration, which range from a view of Mount Kilimanjaro from space to sulphur crystals on Mars.Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, Description: NASA images: Let's take a look at the five most spectacular images released by the National Aeronautics and Space Administration, " />
+      <BookAppointment></BookAppointment> 
     </>
   )
 }
 
 export default App
+
+
+

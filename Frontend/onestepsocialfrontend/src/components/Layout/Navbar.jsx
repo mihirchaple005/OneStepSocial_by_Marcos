@@ -6,6 +6,7 @@ import { FaUser } from "react-icons/fa";
 import { TiGroupOutline } from "react-icons/ti";
 import { IoMdChatboxes } from "react-icons/io"
 import { useEffect, useState } from 'react';
+
 const Navbar = () => {
   const [text, setText] = useState('Loading...');
   useEffect(() => {
@@ -48,7 +49,9 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+
   );
+
 };
 
 export default Navbar;

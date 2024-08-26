@@ -1,5 +1,3 @@
-import Userregister from "./UserProfiles/Userregister"
-
 
 function Onestepsocial() {
   return (

@@ -3,12 +3,10 @@ import {  Link } from "react-router-dom";
 import health1 from '../images/healthc4.jpeg'
 import health2 from '../images/healthc2.jpeg'
 import health3 from '../images/healthc5.webp'
-
-
+import SingleLineInputBox from '../components/SingleLineInputBox';
 function Consultancy2(props){
-   
 return(
-    <div  className=''>
+    <div>
         
         <div className='gap-7 flex place-content-center'><button type='button' className='border-spacing-4 rounded-md bg-gradient-to-b from-emerald-50 to-emerald-200 w-[5rem] h-[4.6rem] shadow-xl shadow-slate-300'>Visit Doctor</button>
         <button type='button' className='border-spacing-4 rounded-md bg-gradient-to-b from-emerald-50 to-emerald-200 w-[5rem] h-[4.6rem] shadow-xl shadow-slate-300'>See Reports</button></div>
