@@ -7,7 +7,6 @@ import { TiGroupOutline } from "react-icons/ti";
 import { IoMdChatboxes } from "react-icons/io"
 import { useEffect, useState } from 'react';
 
-
 const Navbar = () => {
   const [text, setText] = useState('Loading...');
   useEffect(() => {
@@ -22,9 +21,8 @@ const Navbar = () => {
 
 
   return (
-
-    <nav className="bg-blue-200 p-4 border-2  border-blue-300 rounded-md">
-      <div className="container mx-auto flex items-center justify-between">
+    <nav className="bg-blue-200 p-4 border-2 border-blue-300 rounded-md  ">
+      <div className="container mx-auto flex items-center justify-between ">
         <div className="text-4xl text-gradient font-serif hidden md:block">
           OnestepSocial
         </div>
