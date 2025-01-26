@@ -14,9 +14,9 @@ import {Autoplay, EffectCoverflow, Pagination} from 'swiper/modules'
 
 export default function ControlFlow({
   ImagesAndVideosPath = [],
-  delay = 3000,
 }) {
 
+ 
 
   return (
     <>
@@ -27,7 +27,7 @@ export default function ControlFlow({
         centeredSlides={true}
         spaceBetween={-100}
         autoplay = {{
-            delay:{delay},
+            delay:3000,
             disableOnInteraction: false,
         }}
         pagination={false}

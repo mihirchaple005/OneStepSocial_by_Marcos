@@ -1,7 +1,6 @@
-import React from "react"
-import Sanrakshak from "../components/Sanrakshak"
-import Newsfeed from "../components/Newsfeed.component"
-
+import React, { useMemo } from "react"
+import Sanrakshak from "../../components/Sanrakshak"
+import Newsfeed from "../../components/Newsfeed.component"
 
 
 function Crowdfunding({
@@ -12,14 +11,31 @@ function Crowdfunding({
 
   UpdatesAndStories.flag = {flag}
 
+  const cachedStories = useMemo(() => (
+      
+      UpdatesAndStories.map((story) => (
+        
+        <div key={story.id} className="h-full aspect-square p-3">
+          
+          <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] overflow-hidden" >
+
+            <img src={story.url} alt="unviewed story" className="h-full w-full"/>
+
+          </div>
+
+        </div>
+      ))
+    )
+    , [UpdatesAndStories])
+
   return (
     
     <>
       <div className="w-full border-2 border-red-500 h-[91vh] flex ">
 
-        <div className="md:w-[60%] border-2 border-red-300 h-full w-[100%]">
+        <div className="md:w-[60%] border-2 border-red-300 h-full w-[100%] ">
 
-          <div className="w-full border-2 border-red-500 h-[15%] flex overflow-hidden overflow-x-auto">
+          <div className="w-full border-2 border-red-500 h-[15%] flex overflow-hidden overflow-x-auto no-scrollbar">
 
             <div className="h-full aspect-square p-3">
 
@@ -39,26 +55,14 @@ function Crowdfunding({
 
             </div>
 
-            
-            {
-              UpdatesAndStories.map((story) => (
-                
-                <div key={story.id} className="h-full aspect-square p-3">
-                  
-                  <div className="h-full border-2 border-blue-600 aspect-square rounded-[50%] overflow-hidden" >
 
-                    <img src={story.url} alt="unviewed story" className="h-full w-full"/>
-
-                  </div>
-
-                </div>
-              ))
-            }
+             {/* only if the new stories will come then the stories section eill going to refresh */}
+            {cachedStories}
               
 
           </div>
 
-          <div className="w-full border-2 border-red-500 h-[85%] grid px-20 overflow-y-auto">
+          <div className="w-full border-2 border-red-500 h-[85%] grid md:px-20 px-5 overflow-y-auto no-scrollbar">
 
             <div className="w-full border-2 border-yellow-600 h-full grid gris-cols-1 place-content-center  gap-2 ">
 
@@ -66,8 +70,9 @@ function Crowdfunding({
               {/* ekk chnage krna hai multiple feeds ayege tho useke liye for loop lagana hai bass */}
 
               <Newsfeed image = 'https://th.bing.com/th/id/OIP.CBS8VWlB8mIzhU8WbUkcsAHaEw?w=1400&h=900&rs=1&pid=ImgDetMain'/>
-
-
+              
+              
+              
 
             </div>
 

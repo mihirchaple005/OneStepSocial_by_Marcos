@@ -21,7 +21,9 @@ export default {
           '0086A3': '#0086A3',
           'f1f9f9': '#f1f9f9',
         'brand-pink':'#fae3e2'
-      }
+      },
+
+     
 
     },
   },

@@ -1,21 +1,39 @@
 import Newsfeed from './components/Newsfeed.component'
-import Consultancy1 from './pages/Consultancy1'
 import newsimg from './images/newsimg.jpeg'
 import Onestepsocial from './components/Onestepsocial.component'
-import CrowdfundingPage from './pages/Crowdfunding.page'
+import CrowdfundingPage from './pages/CrowdFunding/Crowdfunding.page'
 import Layout from "./components/Layout/Layout";
-import ImagesAndVideosPath from './api/carousel.api'
+import ImagesAndVideosPath from './api/Carousel.api'
+import ControlFlow from './components/CarouselControlFlow.component';
+import Analysis from './pages/CrowdFunding/Analysis.page';
+import GenerateFundForm from './pages/CrowdFunding/GenerateFundForm.page';
 
 
 function App() {
+
+  
+
+
   return (
     <>
 
       <Layout >
 
-        {/* <Onestepsocial /> */}
+         <Onestepsocial />
       
-        <CrowdfundingPage />
+         {/* <CrowdfundingPage UpdatesAndStories={ImagesAndVideosPath}/> */}
+
+        {/* <ControlFlow
+        ImagesAndVideosPath = {ImagesAndVideosPath}
+        /> */}
+
+
+         {/* <Analysis /> */}
+
+        {/* <GenerateFundForm /> */}
+
+        
+
 
 
 

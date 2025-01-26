@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OutputBox = ({ className, data }) => {
+const OutputBox = ({ className = "", data = {} }) => {
   const formattedData = [];
 
   Object.keys(data).forEach((key) => {
