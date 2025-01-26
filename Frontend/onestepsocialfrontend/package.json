@@ -17,11 +17,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
-<<<<<<< HEAD
     "react-icons": "^5.3.0",
-=======
-    "react-icons": "^5.2.1",
->>>>>>> 760667f5cc2187059987475cf7509d1ca25d6b83
     "react-router-dom": "^6.26.0",
     "swiper": "^11.1.9"
   },
