@@ -1,21 +1,39 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
 import Newsfeed from './components/Newsfeed.component'
-import Consultancy1 from './pages/Consultancy1'
 import newsimg from './images/newsimg.jpeg'
 import Onestepsocial from './components/Onestepsocial.component'
-// import './App.css'
-import CrowdfundingPage from './pages/Crowdfunding.page'
+import CrowdfundingPage from './pages/CrowdFunding/Crowdfunding.page'
 import Layout from "./components/Layout/Layout";
-import Documents from './pages/Documents';
-import BookAppointment from './pages/BookAppointment'
-import puppy from './images/puppy.jpeg';
-import Community from './pages/Community';
-import FundDisplay from './components/FundDisplay.component'
+import ImagesAndVideosPath from './api/carousel.api'
+import Analysis from './pages/CrowdFunding/Analysis.page'
+import Consultancy from './pages/Consultancy'
+
 
 function App() {
+
+  
+
+
   return (
     <>
-      <BookAppointment></BookAppointment> 
+
+      <Layout >
+
+        {/* <Onestepsocial /> */}
+
+        {/* <Analysis/> */}
+      
+        {/* <CrowdfundingPage /> */}
+
+        <Consultancy></Consultancy>
+
+      </Layout>
+
+
+     
+
+      
     </>
   )
 }

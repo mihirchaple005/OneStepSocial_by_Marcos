@@ -10,12 +10,7 @@
   font-style: normal;
   src: url(/OneStepSocial_by_Marcos/Frontend/onestepsocialfrontend/fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
 }
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 .logo {
   height: 6em;
